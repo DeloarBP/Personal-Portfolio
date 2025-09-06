@@ -7,7 +7,8 @@ interface Institute {
 
 export default function EducationInstitute({ institute }: Institute) {
   return (
-    <li className="relative text-slate-600 before:absolute before:-left-12.5 before:h-10 before:w-10 before:rounded-sm before:border before:border-slate-200">
+        <li className="relative before:bg-white before:overflow-hidden  before:content-[var(--logo)] before:bg-cover before:p-1  before:absolute before:-left-14 before:block   before:h-12 before:w-12 before:rounded-lg before:border before:border-slate-200" style={{ "--logo": `url(${institute.logo})` }}>
+
       <h4 className="text-xl  font-medium text-slate-950">
         {institute.institute}
       </h4>

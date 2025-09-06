@@ -8,7 +8,8 @@ interface Office {
 
 export default function Office({ office }: Office) {
   return (
-    <li className="relative before:absolute before:-left-12.5 before:h-10 before:w-10 before:rounded-sm before:border before:border-slate-200">
+    <li className="relative before:bg-white before:overflow-hidden  before:content-[var(--logo)] before:bg-cover before:p-1  before:absolute before:-left-14 before:block   before:h-12 before:w-12 before:rounded-lg before:border before:border-slate-200" style={{ "--logo": `url(${office.logo})` }}>
+
       <div className="flex items-center space-x-1">
         <h4 className="mb-1.5 text-xl font-medium text-slate-950">
           {office.name}

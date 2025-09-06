@@ -21,28 +21,28 @@ const resume = {
   offices: [
     {
       name: "PaySuite Fintech Limited",
-      logo: "",
+      logo: "/images/office/paysuite.png",
       duration: "Jun 1 - present",
       address: "J.R CASERO TOWER 46 Mohakhali C/A, Dhaka 1212",
-      short_description: "",
+      short_description: "Accept payments with PaySuite's secure, seamless, and customer-friendly gateway",
     },
     {
       name: "Media365 Limited",
-      logo: "",
+      logo: "/images/office/media365.svg",
       duration: "July 2019 - May 31, 2024",
       address: "Mohammdpur Dhaka 1207",
-      short_description: "",
+      short_description: "Everything is possible when you are in the technology space! Just come and talk to us",
     },
     {
       name: "Razinsoft Limited",
-      logo: "",
+      logo: "/images/office/razionsoft.svg",
       duration: "Part time",
       address: "Adabor Thana, Mohammadpur, Dhaka",
-      short_description: "",
+      short_description: "We build professional websites, eCommerce platforms, custom software, mobile apps, ERP, LMS, HRM systems, and modern user-friendly designs.",
     },
     {
       name: "CSN (Remote)",
-      logo: "",
+      logo: "/images/office/csn.png",
       duration: "Project",
       address: "Vicenza, Italy",
       short_description: "",
@@ -52,7 +52,8 @@ const resume = {
     {
       name: "PaySuite Fintech Limited",
       project_link: "https://paysuiteltd.com",
-      uses_technology: ["Vue3", "Nuxt-3", "Pinia", "Tailwind CSS - V3"],
+      uses_technology: ["Vue3", "Nuxt-3", "Pinia", "Tailwind CSS", "Typescript",  "Eslint",
+        "Prettier"],
       short_description: `Developed the front-end of Media365 Ltd.'s website,
                   implementing modern UI/UX design and responsive web layouts to
                   enhance user experience. `,
@@ -60,7 +61,8 @@ const resume = {
     {
       name: "Meraki Tech Limited",
       project_link: "https://merakitechltd.com",
-      uses_technology: ["Vue3", "Pinia", "Tailwind CSS"],
+      uses_technology: ["Vue3", "Nuxt-3", "Pinia", "Tailwind CSS", "Typescript",  "Eslint",
+        "Prettier"],
       short_description: `Developed the front-end of Meraki Tech Limited's website,
                   implementing modern UI/UX design and responsive web layouts to
                   enhance user experience. `,
@@ -68,14 +70,16 @@ const resume = {
     {
       name: "InfoWorldGroup Limited",
       project_link: "http://infoworldgrpbd.com",
-      uses_technology: ["Nextjs", "Tailwind CSS"],
+      uses_technology: ["Nextjs", "Tailwind CSS", "react-photo-view" , "Typescript",  "Eslint",
+        "Prettier"],
       short_description: `At INFOWORLD Group, we don’t just build businesses—we
 build legacies that shape the future of generations.`,
     },
     {
       name: "DocTime Limited",
       project_link: "https://doctime.com.bd",
-      uses_technology: ["Vue3", "Nuxt-3", "Pinia", "Tailwind CSS"],
+      uses_technology: ["Vue3", "Nuxt-3", "Pinia", "Tailwind CSS", "Typescript",  "Eslint",
+        "Prettier"],
       short_description: `Bangladesh's leading telemedicine and healthcare protection service
 build using latest technology to manage features video calls via
 AgoraRTC and payments with SSLCommerz and bKash. Patients can join
@@ -92,7 +96,8 @@ handle appointments, and payments in their dashboard.
     {
       name: "Media365 Limited",
       project_link: "https://media365.com.bd",
-      uses_technology: ["Vue3", "Pinia", "Tailwind CSS"],
+      uses_technology: ["Vue3", "Pinia", "Tailwind CSS", "Typescript",  "Eslint",
+        "Prettier"],
       short_description: `Developed the front-end of Media365 Ltd.'s website,
                   implementing modern UI/UX design and responsive web layouts to
                   enhance user experience. `,
@@ -104,18 +109,21 @@ handle appointments, and payments in their dashboard.
       subject: "Computer Technology",
       passing_year: "2019",
       result: "3.50",
+      logo: "/images/institute/sipi.webp",
     },
     {
       institute: "Nurul Amin University College",
       subject: "Humanities",
       result: "3.45",
       passing_year: "2014",
+      logo: "/images/institute/empty.svg",
     },
     {
       institute: "Umedpur ozifa rabiullah lyceum school",
       subject: "Humanities",
       result: "3.25",
       passing_year: "2012",
+      logo: "/images/institute/orl.png",
     },
   ],
   skills: [
@@ -154,11 +162,14 @@ handle appointments, and payments in their dashboard.
         "GSAP",
         "Headlessui",
         "Inertiajs",
+        "Typescript",
+        "Eslint",
+        "Prettier"
       ],
     },
     {
       label: "Operating System",
-      package: ["Ubuntu", "Windows 11"],
+      package: ["Ubuntu", "Windows 11", "macOS"],
     },
   ],
   tools: [
